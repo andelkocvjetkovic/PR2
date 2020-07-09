@@ -1,0 +1,12 @@
+﻿  2019-01-24.cpp
+C:\Users\andel\source\repos\2019-01-24\2019-01-24\2019-01-24.cpp(295,25): warning C4129: '.': unrecognized character escape sequence
+C:\Users\andel\source\repos\2019-01-24\2019-01-24\2019-01-24.cpp(375,38): warning C4018: '<': signed/unsigned mismatch
+C:\Users\andel\source\repos\2019-01-24\2019-01-24\2019-01-24.cpp(461,13): warning C4326: return type of 'main' should be 'int' instead of 'void'
+C:\Users\andel\source\repos\2019-01-24\2019-01-24\2019-01-24.cpp(115,2): warning C4018: '<': signed/unsigned mismatch
+C:\Users\andel\source\repos\2019-01-24\2019-01-24\2019-01-24.cpp(106): message : while compiling class template member function 'Dictionary<int,int> Dictionary<int,int>::getRange(int,int) const'
+C:\Users\andel\source\repos\2019-01-24\2019-01-24\2019-01-24.cpp(493): message : see reference to function template instantiation 'Dictionary<int,int> Dictionary<int,int>::getRange(int,int) const' being compiled
+C:\Users\andel\source\repos\2019-01-24\2019-01-24\2019-01-24.cpp(485): message : see reference to class template instantiation 'Dictionary<int,int>' being compiled
+C:\Users\andel\source\repos\2019-01-24\2019-01-24\2019-01-24.cpp(80,2): warning C4018: '<': signed/unsigned mismatch
+C:\Users\andel\source\repos\2019-01-24\2019-01-24\2019-01-24.cpp(79): message : while compiling class template member function 'std::ostream &operator <<(std::ostream &,const Dictionary<int,int> &)'
+C:\Users\andel\source\repos\2019-01-24\2019-01-24\2019-01-24.cpp(488): message : see reference to function template instantiation 'std::ostream &operator <<(std::ostream &,const Dictionary<int,int> &)' being compiled
+  2019-01-24.vcxproj -> C:\Users\andel\source\repos\2019-01-24\Debug\2019-01-24.exe

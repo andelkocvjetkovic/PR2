@@ -1,0 +1,9 @@
+﻿  2015-11-26.cpp
+C:\Users\andel\source\repos\2015-11-26\2015-11-26\2015-11-26.cpp(152,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\andel\source\repos\2015-11-26\2015-11-26\2015-11-26.cpp(308,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+C:\Users\andel\source\repos\2015-11-26\2015-11-26\2015-11-26.cpp(320,35): warning C4267: 'argument': conversion from 'size_t' to 'const T1', possible loss of data
+          with
+          [
+              T1=int
+          ]
+  2015-11-26.vcxproj -> C:\Users\andel\source\repos\2015-11-26\x64\Debug\2015-11-26.exe

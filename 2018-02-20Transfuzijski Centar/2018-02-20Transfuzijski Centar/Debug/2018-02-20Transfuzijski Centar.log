@@ -1,0 +1,13 @@
+﻿  2018-02-20Transfuzijski Centar.cpp
+C:\Users\andel\source\repos\2018-02-20Transfuzijski Centar\2018-02-20Transfuzijski Centar\2018-02-20Transfuzijski Centar.cpp(437,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\andel\source\repos\2018-02-20Transfuzijski Centar\2018-02-20Transfuzijski Centar\2018-02-20Transfuzijski Centar.cpp(453,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\andel\source\repos\2018-02-20Transfuzijski Centar\2018-02-20Transfuzijski Centar\2018-02-20Transfuzijski Centar.cpp(461,12): warning C4101: 'danZadnjeDonacijeDonatora': unreferenced local variable
+C:\Users\andel\source\repos\2018-02-20Transfuzijski Centar\2018-02-20Transfuzijski Centar\2018-02-20Transfuzijski Centar.cpp(460,12): warning C4101: 'danZahtjeva': unreferenced local variable
+C:\Users\andel\source\repos\2018-02-20Transfuzijski Centar\2018-02-20Transfuzijski Centar\2018-02-20Transfuzijski Centar.cpp(482,13): warning C4326: return type of 'main' should be 'int' instead of 'void'
+C:\Users\andel\source\repos\2018-02-20Transfuzijski Centar\2018-02-20Transfuzijski Centar\2018-02-20Transfuzijski Centar.cpp(494,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\andel\source\repos\2018-02-20Transfuzijski Centar\2018-02-20Transfuzijski Centar\2018-02-20Transfuzijski Centar.cpp(496,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\andel\source\repos\2018-02-20Transfuzijski Centar\2018-02-20Transfuzijski Centar\2018-02-20Transfuzijski Centar.cpp(159,2): warning C4018: '<': signed/unsigned mismatch
+C:\Users\andel\source\repos\2018-02-20Transfuzijski Centar\2018-02-20Transfuzijski Centar\2018-02-20Transfuzijski Centar.cpp(158): message : while compiling class template member function 'std::ostream &operator <<(std::ostream &,const Kolekcija<int,int,10> &)'
+C:\Users\andel\source\repos\2018-02-20Transfuzijski Centar\2018-02-20Transfuzijski Centar\2018-02-20Transfuzijski Centar.cpp(503): message : see reference to function template instantiation 'std::ostream &operator <<(std::ostream &,const Kolekcija<int,int,10> &)' being compiled
+C:\Users\andel\source\repos\2018-02-20Transfuzijski Centar\2018-02-20Transfuzijski Centar\2018-02-20Transfuzijski Centar.cpp(495): message : see reference to class template instantiation 'Kolekcija<int,int,10>' being compiled
+  2018-02-20Transfuzijski Centar.vcxproj -> C:\Users\andel\source\repos\2018-02-20Transfuzijski Centar\Debug\2018-02-20Transfuzijski Centar.exe

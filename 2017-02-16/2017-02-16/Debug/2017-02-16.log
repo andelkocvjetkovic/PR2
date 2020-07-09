@@ -1,0 +1,10 @@
+﻿  2017-02-16.cpp
+C:\Users\andel\source\repos\2017-02-16\2017-02-16\2017-02-16.cpp(378,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\andel\source\repos\2017-02-16\2017-02-16\2017-02-16.cpp(432,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\andel\source\repos\2017-02-16\2017-02-16\2017-02-16.cpp(446,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+C:\Users\andel\source\repos\2017-02-16\2017-02-16\2017-02-16.cpp(235,2): warning C4018: '<': signed/unsigned mismatch
+C:\Users\andel\source\repos\2017-02-16\2017-02-16\2017-02-16.cpp(234): message : while compiling class template member function 'std::ostream &operator <<(std::ostream &,FITKolekcija<int,int,7> &)'
+C:\Users\andel\source\repos\2017-02-16\2017-02-16\2017-02-16.cpp(481): message : see reference to function template instantiation 'std::ostream &operator <<(std::ostream &,FITKolekcija<int,int,7> &)' being compiled
+C:\Users\andel\source\repos\2017-02-16\2017-02-16\2017-02-16.cpp(473): message : see reference to class template instantiation 'FITKolekcija<int,int,7>' being compiled
+C:\Users\andel\source\repos\2017-02-16\2017-02-16\2017-02-16.cpp(122): warning C4715: 'Datum::operator++': not all control paths return a value
+  2017-02-16.vcxproj -> C:\Users\andel\source\repos\2017-02-16\Debug\2017-02-16.exe

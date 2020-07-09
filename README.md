@@ -1,2 +1,2 @@
 # PR2
- ISPITI
+ Ispiti iz predmeta PRII

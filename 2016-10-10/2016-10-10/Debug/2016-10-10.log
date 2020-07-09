@@ -1,0 +1,5 @@
+﻿  2016-10-10.cpp
+C:\Users\andel\source\repos\2016-10-10\2016-10-10\2016-10-10.cpp(251,30): warning C4018: '<': signed/unsigned mismatch
+C:\Users\andel\source\repos\2016-10-10\2016-10-10\2016-10-10.cpp(261,34): warning C4018: '<': signed/unsigned mismatch
+C:\Users\andel\source\repos\2016-10-10\2016-10-10\2016-10-10.cpp(327,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  2016-10-10.vcxproj -> C:\Users\andel\source\repos\2016-10-10\Debug\2016-10-10.exe

@@ -1,0 +1,3 @@
+﻿  2015-11-26.cpp
+C:\Users\andel\source\repos\2015-11-26\2015-11-26\2015-11-26.cpp(168,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+LINK : fatal error LNK1168: cannot open C:\Users\andel\source\repos\2015-11-26\Debug\2015-11-26.exe for writing

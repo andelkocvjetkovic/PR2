@@ -1,0 +1,6 @@
+﻿  2018-11-19.cpp
+C:\Users\andel\source\repos\2018-11-19\2018-11-19\2018-11-19.cpp(18,34): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\andel\source\repos\2018-11-19\2018-11-19\2018-11-19.cpp(292,13): warning C4326: return type of 'main' should be 'int' instead of 'void'
+C:\Users\andel\source\repos\2018-11-19\2018-11-19\2018-11-19.cpp(331,33): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\andel\source\repos\2018-11-19\2018-11-19\2018-11-19.cpp(131): warning C4715: 'Kolekcija<Usluga>::operator[]': not all control paths return a value
+  2018-11-19.vcxproj -> C:\Users\andel\source\repos\2018-11-19\x64\Debug\2018-11-19.exe

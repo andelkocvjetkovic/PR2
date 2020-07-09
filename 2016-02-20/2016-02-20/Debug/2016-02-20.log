@@ -1,0 +1,12 @@
+﻿  2016-02-20.cpp
+C:\Users\andel\source\repos\2016-02-20\2016-02-20\2016-02-20.cpp(332,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\andel\source\repos\2016-02-20\2016-02-20\2016-02-20.cpp(399,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\andel\source\repos\2016-02-20\2016-02-20\2016-02-20.cpp(427,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\andel\source\repos\2016-02-20\2016-02-20\2016-02-20.cpp(451,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+C:\Users\andel\source\repos\2016-02-20\2016-02-20\2016-02-20.cpp(473,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\andel\source\repos\2016-02-20\2016-02-20\2016-02-20.cpp(96,2): warning C4018: '<': signed/unsigned mismatch
+C:\Users\andel\source\repos\2016-02-20\2016-02-20\2016-02-20.cpp(93): message : while compiling class template member function 'void Kolekcija<int,int>::RemoveElement(int)'
+C:\Users\andel\source\repos\2016-02-20\2016-02-20\2016-02-20.cpp(476): message : see reference to function template instantiation 'void Kolekcija<int,int>::RemoveElement(int)' being compiled
+C:\Users\andel\source\repos\2016-02-20\2016-02-20\2016-02-20.cpp(471): message : see reference to class template instantiation 'Kolekcija<int,int>' being compiled
+C:\Users\andel\source\repos\2016-02-20\2016-02-20\2016-02-20.cpp(393): warning C4715: 'Ucenik::AddNastavnik': not all control paths return a value
+  2016-02-20.vcxproj -> C:\Users\andel\source\repos\2016-02-20\Debug\2016-02-20.exe

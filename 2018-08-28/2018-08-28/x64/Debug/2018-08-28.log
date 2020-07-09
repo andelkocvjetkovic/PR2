@@ -1,0 +1,20 @@
+﻿  2018-08-28.cpp
+C:\Users\andel\source\repos\2018-08-28\2018-08-28\2018-08-28.cpp(19,34): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\andel\source\repos\2018-08-28\2018-08-28\2018-08-28.cpp(379,1): warning C4305: 'initializing': truncation from 'int' to 'bool'
+C:\Users\andel\source\repos\2018-08-28\2018-08-28\2018-08-28.cpp(424,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+C:\Users\andel\source\repos\2018-08-28\2018-08-28\2018-08-28.cpp(451,43): warning C4267: 'argument': conversion from 'size_t' to 'const T2', possible loss of data
+          with
+          [
+              T2=int
+          ]
+C:\Users\andel\source\repos\2018-08-28\2018-08-28\2018-08-28.cpp(451,43): warning C4267: 'argument': conversion from 'size_t' to 'const T1', possible loss of data
+          with
+          [
+              T1=int
+          ]
+C:\Users\andel\source\repos\2018-08-28\2018-08-28\2018-08-28.cpp(111,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\andel\source\repos\2018-08-28\2018-08-28\2018-08-28.cpp(109): message : while compiling class template member function 'std::ostream &operator <<(std::ostream &,Kolekcija<int,int> &)'
+C:\Users\andel\source\repos\2018-08-28\2018-08-28\2018-08-28.cpp(452): message : see reference to function template instantiation 'std::ostream &operator <<(std::ostream &,Kolekcija<int,int> &)' being compiled
+C:\Users\andel\source\repos\2018-08-28\2018-08-28\2018-08-28.cpp(449): message : see reference to class template instantiation 'Kolekcija<int,int>' being compiled
+C:\Users\andel\source\repos\2018-08-28\2018-08-28\2018-08-28.cpp(411): warning C4715: 'Kandidat::AddPredmet': not all control paths return a value
+  2018-08-28.vcxproj -> C:\Users\andel\source\repos\2018-08-28\x64\Debug\2018-08-28.exe
