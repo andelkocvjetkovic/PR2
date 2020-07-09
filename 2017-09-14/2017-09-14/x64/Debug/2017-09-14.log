@@ -1,5 +1,0 @@
-﻿  2017-09-14.cpp
-C:\Users\andel\source\repos\2017-09-14\2017-09-14\2017-09-14.cpp(335,91): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\andel\source\repos\2017-09-14\2017-09-14\2017-09-14.cpp(362,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
-C:\Users\andel\source\repos\2017-09-14\2017-09-14\2017-09-14.cpp(214): warning C4715: 'Nastavnik::DodajZavrsniRad': not all control paths return a value
-  2017-09-14.vcxproj -> C:\Users\andel\source\repos\2017-09-14\x64\Debug\2017-09-14.exe
