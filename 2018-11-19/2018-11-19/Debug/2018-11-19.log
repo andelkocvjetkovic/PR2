@@ -1,5 +1,0 @@
-﻿  2018-11-19.cpp
-C:\Users\andel\source\repos\2018-11-19\2018-11-19\2018-11-19.cpp(292,13): warning C4326: return type of 'main' should be 'int' instead of 'void'
-C:\Users\andel\source\repos\2018-11-19\2018-11-19\2018-11-19.cpp(330,26): warning C4018: '<': signed/unsigned mismatch
-C:\Users\andel\source\repos\2018-11-19\2018-11-19\2018-11-19.cpp(131): warning C4715: 'Kolekcija<Usluga>::operator[]': not all control paths return a value
-  2018-11-19.vcxproj -> C:\Users\andel\source\repos\2018-11-19\Debug\2018-11-19.exe
