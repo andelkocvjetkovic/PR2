@@ -38,17 +38,17 @@ public:
         _trenutno = new int(0);
     }
 
-    Dictionary(const Dictionary<T1,T2>& org):
+    Dictionary(const Dictionary<T1, T2>& org) :
         _elementi1(new T1[*(org._trenutno)]),
         _elementi2(new T2[*(org._trenutno)]),
         _trenutno(new int(*(org._trenutno)))
-    {  
+    {
         for (int i = 0; i < org.getTrenutno(); i++)
         {
             _elementi1[i] = org._elementi1[i];
             _elementi2[i] = org._elementi2[i];
         }
-       
+
     }
     ~Dictionary() {
         delete[]_elementi1; _elementi1 = nullptr;
@@ -81,10 +81,10 @@ public:
             COUT << obj.getElement1(i) << " " << obj.getElement2(i) << endl;
         return COUT;
     }
-    void AddElement(const T1& elem1,const T2& elem2)
+    void AddElement(const T1& elem1, const T2& elem2)
     {
-        T1* tempE1 = new T1[getTrenutno()+1];
-        T2* tempE2 = new T2[getTrenutno()+1];
+        T1* tempE1 = new T1[getTrenutno() + 1];
+        T2* tempE2 = new T2[getTrenutno() + 1];
         for (int i = 0; i < getTrenutno(); i++)
         {
             tempE1[i] = _elementi1[i];
@@ -99,16 +99,16 @@ public:
         _elementi2 = tempE2;
         tempE1 = NULL;
         tempE2 = NULL;
-        
-        
+
+
     }
-    Dictionary<T1, T2> getRange(int OD, int DO)const 
+    Dictionary<T1, T2> getRange(int OD, int DO)const
     {
         //vraca elemente kolekcije koji se nalaze na lokacijama definisanim vrijednostima parametara (npr. 2 - 7). 
         //funkcija baca izuzetak u slucaju da se zahtijeva lokacija koja ne postoji ili je vrijednost posljednje lokacije manja od pocetne
-        if ((OD < 0 )||( DO < 0 )|| (DO > getTrenutno()))
+        if ((OD < 0) || (DO < 0) || (DO > getTrenutno()))
             throw exception("Lokacija ne postoji");
-        if(DO < OD)
+        if (DO < OD)
             throw exception("Posljednja lokacije ne moze biti manja od pocetne");
 
         Dictionary<T1, T2> temp;
@@ -134,7 +134,7 @@ public:
         _sati = new int(sati);
         _minuti = new int(minuti);
     }
-    DatumVrijeme(const DatumVrijeme& org):
+    DatumVrijeme(const DatumVrijeme& org) :
         _dan(new int(*(org._dan))),
         _mjesec(new int(*(org._mjesec))),
         _godina(new int(*(org._godina))),
@@ -173,7 +173,7 @@ public:
     {
         //treba ispisati: 19/06/2019 10:15
         stringstream obj;
-        obj<< setw(2)<< setfill('0')<< *(this->_dan) << "/" << setw(2) <<
+        obj << setw(2) << setfill('0') << *(this->_dan) << "/" << setw(2) <<
             setfill('0') << *(this->_mjesec) << "/" << *(this->_godina) << " " << *(this->_sati) << ":" << *(this->_minuti);
 
         return Alociraj(obj.str().c_str());
@@ -186,7 +186,7 @@ public:
     {
         if (*(this->_godina) != *(obj._godina))
             return *(this->_godina) < *(obj._godina);
-        else if(*(this->_mjesec) != *(obj._mjesec))
+        else if (*(this->_mjesec) != *(obj._mjesec))
             return *(this->_godina) < *(obj._godina);
         else if (*(this->_dan) != *(obj._dan))
             return *(this->_dan) < *(obj._dan);
@@ -195,7 +195,7 @@ public:
         else if (*(this->_minuti) != *(obj._minuti))
             return *(this->_minuti) < *(obj._minuti);
         return false;
-            
+
     }
 };
 
@@ -209,8 +209,8 @@ public:
         _ocjena = ocjena;
         _napomena = napomena;
     }
-    Predmet(const Predmet& org):
-        _naziv(new char[(strlen(org._naziv)+1)]),
+    Predmet(const Predmet& org) :
+        _naziv(new char[(strlen(org._naziv) + 1)]),
         _ocjena(org._ocjena),
         _napomena(org._napomena)
     {
@@ -250,12 +250,12 @@ public:
 class Uspjeh {
     GodinaStudija* _godina;
     //datumvrijeme se odnosi na vrijeme evidentiranja polozenog predmeta
-    Dictionary<Predmet, DatumVrijeme> _predmeti;    
+    Dictionary<Predmet, DatumVrijeme> _predmeti;
 public:
     Uspjeh(GodinaStudija godina) {
         _godina = new GodinaStudija(godina);
     }
-    Uspjeh(const Uspjeh& org):
+    Uspjeh(const Uspjeh& org) :
         _godina(new GodinaStudija(*org._godina)),
         _predmeti(org._predmeti)
     {   }
@@ -354,15 +354,15 @@ public:
     string GetEmail() { return _emailAdresa; }
     string GetBrojTelefona() { return _brojTelefona; }
     char* GetImePrezime() { return _imePrezime; }
-    bool AddPredmet(const Predmet& predmet,const GodinaStudija& godinaStudija,const DatumVrijeme& datumVrijme)
+    bool AddPredmet(const Predmet& predmet, const GodinaStudija& godinaStudija, const DatumVrijeme& datumVrijme)
     {
         /*
     uspjeh se dodaje za svaki predmet na nivou godine studija.
     tom prilikom onemoguciti:
     - dodavanje istoimenih predmeta na nivou jedne godine,
-    - dodavanje vise predmeta u kratkom vremenskom periodu (na nivou jedne godine, 
+    - dodavanje vise predmeta u kratkom vremenskom periodu (na nivou jedne godine,
     razmak izmedju dodavanja pojedinih predmeta mora biti najmanje 1 sat).
-    godine (predmeti ili uspjeh) ne moraju biti dodavani sortiranim redoslijedom 
+    godine (predmeti ili uspjeh) ne moraju biti dodavani sortiranim redoslijedom
     (npr. prvo se moze dodati uspjeh za drugu godinu, pa onda za prvu godinu i sl.).
     Funkcija vraca true ili false u zavisnosti od (ne)uspjesnost izvrsenja
     */
@@ -379,11 +379,13 @@ public:
                         return false;
                     }
                 }
-                if (!(ProsaoMinSat(datumVrijme,( it->GetPredmeti()->getElement2(it->GetPredmeti()->getTrenutno() - 1)))))
+                if (!(ProsaoMinSat(datumVrijme, (it->GetPredmeti()->getElement2(it->GetPredmeti()->getTrenutno() - 1)))))
                 {
                     return false;
                 }
                 it->GetPredmeti()->AddElement(predmet, datumVrijme);
+                thread t(&Student::evidentirajUspjeh, this, _uspjeh.at(_uspjeh.size() - 1));
+                t.join();
                 return true;
             }
         }
@@ -416,7 +418,7 @@ public:
         }
         return suma;
     }
-    vector<Predmet> operator()( DatumVrijeme* d1,  DatumVrijeme* d2)
+    vector<Predmet> operator()(DatumVrijeme* d1, DatumVrijeme* d2)
     {
         vector<Predmet> temp;
         vector<Uspjeh>::iterator it = _uspjeh.begin();
